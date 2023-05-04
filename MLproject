@@ -1,0 +1,10 @@
+name: test
+
+python_env: python_env.yaml
+
+entry_points:
+  main:
+    parameters:
+      max_depth: {type: int, default: 10}
+      n_estimators: {type: int, default: 100}
+    command: "python test.py {n_estimators} {max_depth}"
