@@ -1,4 +1,4 @@
-name: test
+name: test_mlflow
 
 python_env: python_env.yaml
 
